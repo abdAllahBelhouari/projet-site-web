@@ -69,5 +69,17 @@
             <a href="https://viadeo.journaldunet.com/"><img src="img/viadeo.png" alt="viadeo"></a>
         </div>
     </footer>
+    <script>
+        function calculer (val){
+            let valeur = document.getElementById('quantite').value;
+            if (val=='plus'){
+                valeur++;
+            }else{
+                valeur--;
+                valeur = valeur<1 ? valeur=1 : valeur;
+            }
+            document.getElementById('quantite').value = valeur;
+        }
+    </script>    
 </body>
 </html>
