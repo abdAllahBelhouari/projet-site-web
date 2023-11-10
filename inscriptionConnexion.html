@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma boutique - Connexion</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" id="logo" alt="logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="categorie.html">Catégories</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="inscriptionConnexion.html">Inscription / Connexion</a></li>
+                <li><a href="espaceClient.html">Espace Client</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="broadcum">
+            <a href="index.html">Accueil</a> > Inscription / Connexion
+        </div>
+        <div class="login">
+            <form action="espaceClient.html" method="POST">
+                <fieldset>
+                    <legend>Connexion</legend>
+                    <label for="emailId">Email :</label>
+                    <input type="email" name="emailId" id="emailId" placeholder="fleur.simone@gmail.com" required>
+                    <br>
+                    <label for="mdp">Mot de passe :</label>
+                    <input type="password" name="mdp" id="mdp" required>
+                    <br>
+                    <button type="submit" name="submit">Connexion</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="signIn">
+            <form action="espaceClient.html" method="POST">
+                <fieldset>
+                    <legend>Inscription</legend>
+                    <label for="nom">Nom :</label>
+                    <input type="text" name="nom" id="nom" placeholder="Votre Nom" required>
+                    <br>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre Prénom" required>
+                    <br>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" placeholder="fleur.simone@gmail.com" required>
+                    <br>
+                    <label for="motdepasse1">Mot de passe :</label>
+                    <input type="password" name="motdepasse1" id="motdepasse1" required>
+                    <br>
+                    <label for="motdepasse2">Répéter mot de passe :</label>
+                    <input type="password" name="motdepasse2" id="motdepasse2" required>
+                    <br>
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" name="adresse" id="adresse" placeholder="N° et Rue" required>
+                    <br>
+                    <label for="cp">Code postal :</label>
+                    <input type="number" id="cp" name="cp" min="01000" max="97400" required>
+                    <label for="ville">Ville :</label>
+                    <input type="text" name="ville" id="ville" required>
+                    <br>
+                    <label for="pays">Pays :</label>
+                    <input type="text" name="pays" id="pays" required>
+                    <br>
+                    <label for="telephone">Téléphone :</label>
+                    <input type="tel" name="telephone" id="telephone" maxlength="10" required>
+                    <br>
+                    <button type="submit" name="submit">Inscription</button>
+                </fieldset>
+            </form>
+        </div>        
+    </div>
+    <footer>
+        <div class="footerCol" id="footerCol1">
+            <address>
+                <p>M. Tartampion</p>
+                <p>142 boulevard Guttemberg</p>
+                <p>75016 Paris</p>
+                <p>Tel : <a href="tel:0606060606">06 02 03 04 05</a></p>
+                <p>Email : <a href="mailto:tartampion@gmail.com">tartampion@gmail.com</a></p>
+            </address>
+        </div>
+        <div class="footerCol" id="footerCol2">
+            <nav>
+                <ul>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="mentions.html">Mentions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footerCol" id="footerCol3">
+            <a href="https://www.linkedin.com/"><img src="img/linkedin.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt="instagram"></a>
+            <a href="https://viadeo.journaldunet.com/"><img src="img/viadeo.png" alt="viadeo"></a>
+        </div>
+    </footer>
+</body>
+</html>

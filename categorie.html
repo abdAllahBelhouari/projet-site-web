@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma boutique - Catégorie</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" id="logo" alt="logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="categorie.html">Catégories</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="inscriptionConnexion.html">Inscription / Connexion</a></li>
+                <li><a href="espaceClient.html">Espace Client</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="broadcum">
+            <a href="index.html">Accueil</a> > Catégories
+        </div>
+        
+        <fieldset id="fieldGauche">
+            <legend>Filtre</legend>
+            <label>Sélectionnez vos choix</label>
+            <p>
+                <input type="checkbox" name="produits[]" id="chemise" >
+                <label for="chemise">Chemises</label>
+                <br>
+                <input type="checkbox" name="produits[]" id="jeans">
+                <label for="jeans">Pantalons</label>
+                <br>
+                <input type="checkbox" name="produits[]" id="veste">
+                <label for="veste">Veste</label>
+                <br>
+                <input type="checkbox" name="produits[]" id="chaussures">
+                <label for="chaussures">Chaussures</label>
+            </p>
+        </fieldset>
+
+        <fieldset id="fieldDroite">
+            <legend>Produits</legend>
+            <div class="ligne1">
+                <a href="produit.html">Produit 1</a>
+                <a href="produit.html">Produit 2</a>
+            </div>
+            <div class="ligne2">
+                <a href="produit.html">Produit 3</a>
+                <a href="produit.html">Produit 4</a>
+            </div>
+            <div class="ligne3">
+                <a href="produit.html">Produit 5</a>
+                <a href="produit.html">Produit 6</a>
+            </div>
+        </fieldset>
+        
+    </div>
+    <footer>
+        <div class="footerCol" id="footerCol1">
+            <address>
+                <p>M. Tartampion</p>
+                <p>142 boulevard Guttemberg</p>
+                <p>75016 Paris</p>
+                <p>Tel : <a href="tel:0606060606">06 02 03 04 05</a></p>
+                <p>Email : <a href="mailto:tartampion@gmail.com">tartampion@gmail.com</a></p>
+            </address>
+        </div>
+        <div class="footerCol" id="footerCol2">
+            <nav>
+                <ul>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="mentions.html">Mentions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footerCol" id="footerCol3">
+            <a href="https://www.linkedin.com/"><img src="img/linkedin.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt="instagram"></a>
+            <a href="https://viadeo.journaldunet.com/"><img src="img/viadeo.png" alt="viadeo"></a>
+        </div>
+    </footer>
+</body>
+</html>

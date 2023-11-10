@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma boutique - Panier</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" id="logo" alt="logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="categorie.html">Catégories</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="inscriptionConnexion.html">Inscription / Connexion</a></li>
+                <li><a href="espaceClient.html">Espace Client</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="broadcum">
+            <a href="index.html">Accueil</a> > Panier
+        </div>
+        
+        <form action="paiement.html" method="POST" >
+            <table>
+                <tr>
+                    <th>Produit</th>
+                    <th>Quantité</th>
+                    <th>Prix</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>Chaussure</td>
+                    <td><input type="number" value="1" min="1" name="quantite[]" class="quantite"></td>
+                    <td>49.99</td>
+                    <td>49.99</td>
+                </tr>
+                <tr>
+                    <td>Chemise</td>
+                    <td><input type="number" value="1" min="1" name="quantite[]" class="quantite"></td>
+                    <td>21.50</td>
+                    <td>21.50</td>
+                </tr>
+                <tr>
+                    <td>Veste</td>
+                    <td><input type="number" value="1" min="1" name="quantite[]" class="quantite"></td>
+                    <td>45.99</td>
+                    <td>45.99</td>
+                </tr>
+            </table>
+            <button type="submit">Paiement</button>
+        </form>
+        
+    </div>
+    <footer>
+        <div class="footerCol" id="footerCol1">
+            <address>
+                <p>M. Tartampion</p>
+                <p>142 boulevard Guttemberg</p>
+                <p>75016 Paris</p>
+                <p>Tel : <a href="tel:0606060606">06 02 03 04 05</a></p>
+                <p>Email : <a href="mailto:tartampion@gmail.com">tartampion@gmail.com</a></p>
+            </address>
+        </div>
+        <div class="footerCol" id="footerCol2">
+            <nav>
+                <ul>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="mentions.html">Mentions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footerCol" id="footerCol3">
+            <a href="https://www.linkedin.com/"><img src="img/linkedin.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt="instagram"></a>
+            <a href="https://viadeo.journaldunet.com/"><img src="img/viadeo.png" alt="viadeo"></a>
+        </div>
+    </footer>
+</body>
+</html>
